@@ -7,9 +7,9 @@
 </head>
 <body>
   <h1>404 not found</h1>
-  <code id="display"></code>
+  <p>oops! it seens like <code id="display></code> doesnt exist!</p>
   <script>
-    document.getElementById("display").innerHTML = 'Oops! It seems like the path you requested (' + window.location.pathname + ") doesn't exist! :(";
+    document.getElementById("display").innerHTML = window.location.pathname;
   </script>
 </body>
 </html>
