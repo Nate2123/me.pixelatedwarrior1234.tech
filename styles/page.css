@@ -63,11 +63,7 @@
 	width: 26rem
 }
 
-@media only screen and (min-width:768px) {
-	.spicutes {
-		box-shadow: rgb(128,128,128) -5px 5px, rgb(105,105,105) -10px 10px;
-	}
-}
+
 /* Scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
